@@ -1,0 +1,33 @@
+@media (max-width: 615px){
+    .navigation{
+        flex-direction: column;
+        height: 100%;
+    }
+    .navigation>.right-column{
+        order: 1;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .links-codepen>.nav-link{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font: size 1.5em;
+        width: 100%;
+     }
+    .text-heading1{
+        order: 2;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .center-section{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .footer{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+ }

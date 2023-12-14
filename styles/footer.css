@@ -1,0 +1,38 @@
+.footer>.links-footer{
+margin: 10px 15px;
+padding: 10px 20px;
+ 
+ }
+.footer>.links-footer{
+
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    }
+
+.footer>.links-footer>.nav-link{
+    margin-left: -20px;
+}
+
+.footer>.links-footer>.nav-link button{
+    text-decoration: none;
+    font-size: 0.9em;
+    background: linear-gradient(rgb(57, 55, 66), rgb(74, 74, 82));
+    color: white;
+    border: 2px solid #dcd8ce;
+    padding: 15px 30px;
+    border-radius: 3px;
+    outline: none;
+    transition: all 0.3s;
+}
+.footer>.links-footer>.nav-link> button strong{
+    align-content: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 3px;
+    outline: none;
+    transition: all 0.3s;
+}

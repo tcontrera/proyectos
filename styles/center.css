@@ -1,0 +1,99 @@
+.center-section
+{ 
+   display:flex;
+  justify-content: center;
+}
+.center-section>.content-section
+{ 
+    
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+    margin-top: -4px;
+ }
+ 
+ .text-heading1 
+ { 
+   position: absolute;
+    padding-top: 60px;
+    right: 59%;
+    left: 48%;
+    width: 50%;
+    color: white;
+
+ }
+.text-heading1  mark
+ { 
+    background-color: transparent;
+   color: rgb(31, 209, 206);
+ }
+
+ .center-section>.content-section>.img-section
+ {
+    width: 500px;
+    object-fit: cover;
+    margin: 88px;
+    position: absolute;
+    top: 53%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+}
+
+.center-section>.content-section>.text-heading
+{
+    display: flex;
+    margin: 10px;
+    font-family: 'Ubuntu' ,sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 42px;
+    font-size: 2em;
+}
+.center-section>.content-section>.text-heading >p mark
+{
+   background-color: transparent;
+   color: white;
+   transform: scaleX(-1);
+}
+.center-section>.content-section>.text-heading >p> i
+{
+   color:#e7b645;
+   transform: scaleX(-1);
+}
+   
+.center-section>.content-section>.text-heading p
+{
+   color:rgb(172, 169, 186);
+}
+.center-section>.content-section>.button-sections
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 88px;
+    height: 1066px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.center-section>.content-section>.button-sections>button.right-btn
+{
+    background-color:black;
+    color:white;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border-radius: 2px;
+    outline: none;
+    transition: all 0.3s;   
+}
+.center-section>.content-section>.button-sections>button.left-btn
+{
+    background-color:#4cbe70;
+    color: #11122b;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border-radius: 2px;
+    outline: none;
+    transition: all 0.3s;
+}
